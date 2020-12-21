@@ -4,7 +4,7 @@ This repo contains code and corpus information for a larger project that uses re
 
 The goal of the project is to study the rhetorical usage of address across authors, periods, and genres using a combination of computational tools and close reading. The code and corpus are presented here to facilitate transparency. This project is ongoing and the repo will continue to evolve. 
 
-Reader address is a wide ranging phenomenon that can be hard to pin down. Authors have used address to elicite sympathy, incite fear, and foster guilt. 
+Reader address is a wide ranging phenomenon that can be hard to pin down. Authors have used address to elicite sympathy, incite fear, and foster guilt:
 
 * she recovered, turned her face to the wall, and wept and sobbed like a child. Perhaps, mother, you can tell what she was thinking of! (Harriet Beecher Stowe, *Uncle Tom's Cabin*)
 
