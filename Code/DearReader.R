@@ -1,12 +1,12 @@
 ### Basic Set-up ###
-#Please install and load the following packages:
+#Please install and load the following packages, more info in README:
 library(syuzhet)
 library(stringr)
 library(readr)
 
-#Set working directory to wherever you have cloned the repo:
-#If you are on a windows machine you will need to escape the slashes: setwd("C:\\Desktop\\DearReader-main")
-setwd("~/Desktop/GitHub_DearReader")
+#Set working directory to wherever you have downloaded the repo:
+#If you are on a windows machine you will need to escape the slashes: setwd("C:\\Downloads\\DearReader-main")
+setwd("~/Downloads/DearReader-main")
 
 #Locate the individual novels in the Text_Corpus folder:
 input.dir<-"Test_Corpus"
@@ -18,7 +18,7 @@ for (i in 1: length(files.v)) {
 #Print current novel title to consol to track progress of this script:
 print(files.v[i])
   
-#Read each novel in  
+#Read each novel in:  
 text_v<-scan(paste(input.dir, files.v[i], sep="/"),
                what="character", sep="\n")
 
@@ -109,7 +109,7 @@ for (m in 1:length(reader_address)) {
 }
 }
 
-#Clean up quotation marks that remain
+#Clean up quotation marks that remain:
 winnowed_reader_address<- gsub('“', " ", winnowed_reader_address)
 winnowed_reader_address<- gsub('”', " ", winnowed_reader_address)
 winnowed_reader_address<- gsub('\\n', "", winnowed_reader_address)
@@ -117,11 +117,11 @@ winnowed_reader_address<- gsub('‘|’', "'", winnowed_reader_address)
 
 
 ### Create a CSV File of Address for Each Novel ###
-#Put results from the current novel in a dataframe
+#Put results from the current novel in a dataframe:
 output.df<- as.data.frame(winnowed_reader_address)
 names(output.df)[1] <- "sentences categorized as containing address"
 
-#Individual CSV files written to the "Output" folder 
+#Individual CSV files written to the "Output" folder: 
 write.csv(output.df, file=paste("Output/", gsub("txt", "csv", files.v[i])), fileEncoding = "UTF-16", row.names=FALSE)
 
 }
