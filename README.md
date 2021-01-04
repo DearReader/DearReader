@@ -74,7 +74,7 @@ I focus on a specific subset of commonly used terms and phrases:
 * our narrative
 * my narrative. 
 
-These terms and phrases were included because of their prevalence in fiction and because they returned more true positives than false positives. Other terms where initially included, such as “dear friends” but were removed after I determined that they returned more false positives than true positives. 
+These terms and phrases were included because of their prevalence in fiction and because they returned more true positives than false positives. Other terms where initially included, such as “dear friends,” but were removed after I determined that they returned more false positives than true positives. 
 
 
 ### Removing Dialogue
