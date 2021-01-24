@@ -124,7 +124,7 @@ The code also includes a section to help eliminate embedded correspondence (an e
 
 To learn more about how computers can be used to study literature, please see: ["Seven ways humanists are using computers to understand texts"](https://tedunderwood.com/2015/06/04/seven-ways-humanists-are-using-computers-to-understand-text/)
 
-To learn more about reader address, please see: [Warhol, Robyn. Gendered Interventions. Rutgers University Press, 1989.] (https://ohiostatepress.org/books/BookPages/WarholGendered.html)
+To learn more about reader address, please see: [Warhol, Robyn. Gendered Interventions. Rutgers University Press, 1989](https://ohiostatepress.org/books/BookPages/WarholGendered.html)
 
 
 
